@@ -31,3 +31,14 @@ span{
     margin-bottom:0;
 
 }
+.welGreet {
+    font-size:40px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom:25%;
+    transform: translate(-50%, -50%);
+  }
+  
+ 
