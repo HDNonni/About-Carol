@@ -10,11 +10,12 @@ html, body{
 }
 .picChange2{
     height:250px;
-    width:220px;
+    width:200px;
     transform:rotate(-20deg);    
 }
 .picChange3{
-    height:220px;
+    height:210px;
+    width:240px;
     transform:rotate(20deg);
 }
 h2{
