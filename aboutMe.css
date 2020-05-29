@@ -1,44 +1,56 @@
-html, body{
-    box-sizing: border-box;
-    background-color: lightyellow;
-    font-family: 'Slabo 27px', serif;
-    
+html,
+body {
+  box-sizing: border-box;
+  background-color: lightyellow;
+  font-family: "Slabo 27px", serif;
 }
-.jumbotron{
-    color:white; 
-    background-image:url("ctrideOrg.png");
-    background-image:url("ctrideOrg.png");
-    background-repeat: repeat-x;
-    background-size: contain
-    
+.jumbotron {
+  color: white;
+  background-image: url("ctrideOrg.png");
+  /* background-image:url("ctrideOrg.png"); */
+  background-repeat: repeat-x;
+  background-size: contain;
 }
-h4{
-    font-family: 'Slabo 27px', serif;
-    font-size: 25px;
-    font-weight:bolder;
-}
-h1{
-    text-align: center;
-    font-weight: bold;
-}
-p{
-    font-size:18px;
-}
-span{
-    font-style:oblique;
-}
-.headerMarg{
-    margin-bottom:0;
 
+h4 {
+  font-family: "Slabo 27px", serif;
+  font-size: 25px;
+  font-weight: bolder;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+p {
+  font-size: 18px;
+}
+span {
+  font-style: oblique;
+}
+.headerMarg {
+  margin-bottom: 0;
+}
+.navbar {
+  height: 5rem;
 }
 .welGreet {
-    font-size:40px;
-    font-weight: bold;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    bottom:25%;
-    transform: translate(-50%, -50%);
+  font-size: 2.75rem;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  bottom: 30%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1320px) {
+  .welGreet {
+    font-size: 1.5rem;
+    top: 40%;
   }
-  
- 
+}
+@media (max-width: 727px) {
+  .welGreet {
+    font-size: 1rem;
+  }
+}
